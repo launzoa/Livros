@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26153d94-5a3b-4d3e-a625-f1e025fa8039" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter 5/5.2 - Método de Euler/exercises/ex1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 5/5.2 - Método de Euler/exercises/ex1b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 5/5.2 - Método de Euler/exercises/ex1c.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter 5/5.2 - Método de Euler/exercises/ex1d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Algoritmos/Chapter 18 - Árvore B/ex.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter 5/5.4 - Método de Runge-Kutta/Exercises/1/a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 5/5.3 - Método de Taylor de Ordem Superior/Exercícios/1_a).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 5/5.3 - Método de Taylor de Ordem Superior/Exercícios/1_a.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 5/5.3 - Método de Taylor de Ordem Superior/Exercícios/1_b.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 5/5.3 - Método de Taylor de Ordem Superior/Exercícios/1_b.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 5/5.3 - Método de Taylor de Ordem Superior/Exercícios/ex1_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter 5/5.3 - Método de Taylor de Ordem Superior/Exercícios/ex1_b.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.a.executor": "Run",
     "Python.ex1.executor": "Run",
     "Python.ex1b.executor": "Run",
     "Python.ex1c.executor": "Run",
@@ -45,12 +50,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/launzoa/Github/Livros/Análise Numérica/Chapter 5/5.3/Exemplos",
+    "last_opened_file_path": "/home/launzoa/Documentos/Github/Livros/Análise Numérica",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,6 +104,9 @@
       <workItem from="1753744324656" duration="2273000" />
       <workItem from="1753753128490" duration="544000" />
       <workItem from="1753795517402" duration="164000" />
+      <workItem from="1753963264121" duration="542000" />
+      <workItem from="1753963821855" duration="302000" />
+      <workItem from="1753964138686" duration="4943000" />
     </task>
     <servers />
   </component>
@@ -105,10 +114,11 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Análise_Numérica$a.coverage" NAME="a Coverage Results" MODIFIED="1753969363825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter 5/5.4 - Método de Runge-Kutta/Exercises/1" />
     <SUITE FILE_PATH="coverage/Análise_Numérica$ex1c.coverage" NAME="ex1c Coverage Results" MODIFIED="1753753311510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter 5/5.2 - Método de Euler/exercises" />
     <SUITE FILE_PATH="coverage/Análise_Numérica$ex1.coverage" NAME="ex1 Coverage Results" MODIFIED="1753745543694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter 5/5.2 - Método de Euler/exercises" />
     <SUITE FILE_PATH="coverage/Análise_Numérica$ex1b.coverage" NAME="ex1b Coverage Results" MODIFIED="1753745981904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter 5/5.2 - Método de Euler/exercises" />
     <SUITE FILE_PATH="coverage/Análise_Numérica$ex1d.coverage" NAME="ex1d Coverage Results" MODIFIED="1753753624142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter 5/5.2 - Método de Euler/exercises" />
-    <SUITE FILE_PATH="coverage/Análise_Numérica$main.coverage" NAME="main Coverage Results" MODIFIED="1753753189554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Análise_Numérica$main.coverage" NAME="main Coverage Results" MODIFIED="1753964673078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
