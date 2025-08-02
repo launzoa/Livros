@@ -35,17 +35,6 @@ for i in range(n):
     u[i+1] = u[i] + h * f(k1, k2)
 
 
-v = np.zeros(n+1)
-v[0] = 0
-# MÉTODO DE HEUN (RK2)
-for i in range(n):
-    k1 = f(t[i], v[i])
-
-    k2 = f(t[i+1], v[i] + h * k1)
-
-    v[i+1] = v[i] + h * (k1+k2) / 2
-
-
 j = np.zeros(n+1)
 j[0] = 0
 # MÉTODO DE HEUN (Terceira Ordem)
@@ -76,7 +65,6 @@ for i in range(n):
 plt.plot(t, y, '--', label="Solução Analítica")
 plt.plot(t, w, '--', label="Método de Euler Modificado")
 plt.plot(t, u, '--', label="Método de Ponto Médio")
-plt.plot(t, v, '--', label="Método de Heun (RK2)")
 plt.plot(t, j, '--', label="Método de Heun (3 ordem)")
 plt.plot(t, k, '--', label="Runge-Kutta de 4 ordem (RK4)")
 

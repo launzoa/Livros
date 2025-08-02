@@ -37,19 +37,6 @@ for i in range(n):
     p[i+1] = p[i] + h * f(k1, k2)
 
 
-# MÉTODO DE HEUN (RK2)
-
-v = np.zeros(n+1)
-v[0] = 1
-
-for i in range(n):
-    k1 = f(t[i], v[i])
-
-    k2 = f(t[i+1], v[i] + h * k1)
-
-    v[i+1] = v[i] + (h/2) * (k1 + k2)
-
-
 # MÉTODO DE HEUN (3 ORDEM)
 
 j = np.zeros(n+1)
@@ -63,6 +50,7 @@ for i in range(n):
     k3 = f(t[i] + ((2*h)/3), j[i] + ((2*h)/3) * k2)
 
     j[i+1] = j[i] + (h/4) * (k1 + 3*k3)
+
 
 # MÉTODO RUNGE-KUTTA 4 ORDEM (RK4)
 
@@ -78,12 +66,11 @@ for i in range(n):
 
     k4 = h * f(t[i+1], k[i] + k3)
 
-    k[i+1] = j[i] + (1/6) * (k1 + 2*k2 + 2*k3 + k4)
+    k[i+1] = k[i] + (1/6) * (k1 + 2*k2 + 2*k3 + k4)
 
 plt.plot(t, y, '--', label="Solução analítica")
 plt.plot(t, w, '--', label="Método de Euler Modificado")
 plt.plot(t, p, '--', label="Método de Ponto Médio")
-plt.plot(t, v, '--', label="Método de Heun de 2 Ordem (RK2)")
 plt.plot(t, j, '--', label="Método de Heun de 3 Ordem")
 plt.plot(t, k, '--', label="Método de Runge-Kutta de 4 Ordem (RK4)")
 
